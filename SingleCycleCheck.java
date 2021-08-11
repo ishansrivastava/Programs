@@ -7,7 +7,7 @@ class Program {
 		
 		while(visitedCount<array.length)
 		{
-			if(visitedCount>0 && currentIdx==0)
+			if(visitedCount>0 && currentIdx==STARTING_IDX)
 				return false;
 			visitedCount++;
 			currentIdx=getNextIdx(currentIdx,array);
